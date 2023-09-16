@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'iDroid';
+    src: url(fontes/idroid.otf) format('opentype');
+
+
+}
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    text-align: justify;
+    background-color: #84E1AD;
+}
+
+header{
+    text-align: center;
+    padding: 30px 10px 30px 10px; 
+    background-image: linear-gradient(to top, #123a24, #24814e, #39CB79);
+}
+
+header > h1{
+    margin-bottom: 20px;
+    color: #123a24;
+}
+
+nav{
+    background-color: #123a24;
+}
+
+nav > a{
+    color: white;
+}
+
+main{
+    max-width: 770px;
+    background-color: white;
+    padding: 30px;   
+}
+
+.sub{
+    background-image: linear-gradient(to right, #C8ECD8, #c8ecd836);
+    color: #134429;
+    font-family: 'iDroid';
+    margin-bottom: 20px;
+}
+
+.principal{
+    font-family: 'iDroid';
+    color: #134429;
+    margin-bottom: 20px;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+    background-color: #84E1AD;
+}
+
+aside > h1{
+    background-color: #268651;
+}
+
+

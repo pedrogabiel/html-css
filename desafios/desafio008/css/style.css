@@ -1,0 +1,55 @@
+html, body{
+    height: 100%;
+}
+
+.pag1{
+    background-image: url(imagens/silver.jpg);
+    font-family: sans-serif;
+}
+
+.header{
+    color: rgb(252, 252, 252);
+}
+
+.section{
+    color: rgb(228, 241, 241);
+}
+
+.links{
+    color: rgb(255, 255, 255);
+    font-size: large;
+}/* PAGINA 1 */
+
+.pag2{
+    background-image: url(imagens/gold.jpg);
+}
+
+.header2{
+    color: rgb(255, 210, 10);
+}
+
+.section2{
+    color: rgb(150, 128, 5);
+}
+
+.links2{
+    color: rgb(253, 195, 5);
+    font-size: large;
+}/* PAGINA 2 */
+
+.pag3{
+    background-image: url(imagens/diamond.jpg);
+}
+
+.header3{
+    color: rgb(4, 252, 190);
+}
+
+.section3{
+    color: rgb(20, 192, 149);
+}
+
+.links3{
+    color: rgb(5, 245, 253);
+    font-size: large;
+}/* PAGINA 3 */
