@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+:root{
+    --fonte1: 'Croissant One', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 25%;
+    max-width: 80px;
+    min-width: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 65%;
+    width: auto;
+    font-family: var(--fonte1);
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #AFE166;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+}
+
+nav ul li:hover{
+    color: #AFE166;
+    transition: 1s;
+}
+
+main section{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.titulo-principal{
+    margin: 29px auto;
+    font-weight: 200em;
+    line-height: 25px;
+    font-size: 4vw;
+    margin-bottom: 60px;
+    font-family: var(--fonte1);
+}
+
+p{
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    font-family: var(--fonte1);
+    padding: 20px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #AFE166;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: var(--fonte1);
+}
+
+span{
+    background: #AFE166;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover{
+    border: none;
+    color: black;
+    transition: 1.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
